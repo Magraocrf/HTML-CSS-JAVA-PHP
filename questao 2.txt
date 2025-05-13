@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabela de Produtos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 40px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        thead {
+            background-color: #800000;
+            color: white;
+        }
+
+        th, td {
+            padding: 12px 16px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+
+        tbody tr:hover {
+            background-color: #e0f7fa;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Tabela de Produtos</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Preço</th>
+                <th>Categoria</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Tomate</td>
+                <td>R$ 8,90 Kg</td>
+                <td>Verdura</td>
+            </tr>
+            <tr>
+                <td>Iogurte</td>
+                <td>R$ 15,90</td>
+                <td>Laticínio</td>
+            </tr>
+            <tr>
+                <td>Alcatra</td>
+                <td>R$ 49,90 Kg</td>
+                <td>Carne</td>
+            </tr>
+            <tr>
+                <td>Chá de hortelã</td>
+                <td>R$ 9,90</td>
+                <td>Produtos Naturais</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
